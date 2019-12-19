@@ -9,9 +9,11 @@ read -p " [?] Input => " pil;
 case $pil in
 1) cd .data
 sh 1.sh
+exit
 ;;
 2) cd .data
 sh 2.sh
+exit
 ;;
 00) exit
 ;;
